@@ -76,5 +76,4 @@ public class DialogueWriter
 
         buttonNext.SetActive(true);
     }
-
 }
