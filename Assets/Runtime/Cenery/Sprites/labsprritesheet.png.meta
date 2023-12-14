@@ -139,10 +139,10 @@ TextureImporter:
       name: advise
       rect:
         serializedVersion: 2
-        x: 160
-        y: 128
-        width: 16
-        height: 16
+        x: 164
+        y: 130
+        width: 8
+        height: 11
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,7 +225,7 @@ TextureImporter:
         serializedVersion: 2
         x: 240
         y: 112
-        width: 31
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -370,9 +370,9 @@ TextureImporter:
       name: side_door_close
       rect:
         serializedVersion: 2
-        x: 192
+        x: 197
         y: 16
-        width: 16
+        width: 8
         height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -391,9 +391,9 @@ TextureImporter:
       name: side_door_open
       rect:
         serializedVersion: 2
-        x: 208
+        x: 213
         y: 16
-        width: 16
+        width: 8
         height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -412,9 +412,9 @@ TextureImporter:
       name: old_side_door_close
       rect:
         serializedVersion: 2
-        x: 224
+        x: 228
         y: 16
-        width: 16
+        width: 8
         height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -459,7 +459,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -476,11 +476,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 272
-        y: 81
+        y: 80
         width: 32
-        height: 31
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

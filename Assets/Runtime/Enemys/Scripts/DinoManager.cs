@@ -1,9 +1,15 @@
+using TMPro.EditorUtilities;
 using UnityEngine;
+
 
 public class DinoManager : MonoBehaviour
 {
+    [SerializeField] private Room[] Rooms;
+
+    [SerializeField] private GameObject dino;
+
     [SerializeField] private int currenRoom = 0;
-    private const int roomLenght = 7;
+    private int roomLenght = 7;
 
     public int RoomWithAudio { get; set; }
 
@@ -12,6 +18,7 @@ public class DinoManager : MonoBehaviour
 
     void Start()
     {
+        roomLenght = Rooms.Length;
         currenRoom = Random.Range(0, roomLenght);
         ChangeRoom();
     }
@@ -37,5 +44,13 @@ public class DinoManager : MonoBehaviour
             currenRoom = RoomWithAudio + 1;
             RoomWithAudio = 0;
         }
+
+        dino.transform.position = Rooms[currenRoom].dinoSpawn[Random.Range(0, Rooms[currenRoom].dinoSpawn.Length - 1)].transform.position;
     }
+}
+
+[System.Serializable]
+public struct Room
+{
+    public Transform[] dinoSpawn;
 }
