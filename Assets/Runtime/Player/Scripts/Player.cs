@@ -68,13 +68,15 @@ public class Player : MonoBehaviour
             {
                 @object = this.gameObject
             };
-
-            Debug.Log("New Movement Created");
             return;
         }
 
         animator.SetBool(Anim_Idle, Direction() == Vector2.zero);
-        render.flipX = Direction().x < 0;
+        
+        if(Direction().x != 0)
+        {
+            render.flipX = Direction().x < 0;
+        }
 
         if (virtualCamera.Follow != transform)
         {
