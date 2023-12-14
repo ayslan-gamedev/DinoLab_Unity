@@ -18,6 +18,14 @@ public class Player : MonoBehaviour
 
     private Rect screenRect = Rect.zero;
 
+    private const string Anim_Idle = "Idle";
+    private const string Player_Blendtree = "Player";
+
+    public byte PlayerSelected { get; private set; }
+
+    SpriteRenderer render;
+    Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +36,18 @@ public class Player : MonoBehaviour
         {
             @object = this.gameObject
         };
+
+        GameManager manager = FindAnyObjectByType<GameManager>();
+
+        if(manager != null)
+        {
+            PlayerSelected = manager.PlayerSelected;
+        }
+
+        animator = GetComponentInChildren<Animator>();
+        animator.SetFloat(Player_Blendtree, PlayerSelected);
+
+        render = GetComponentInChildren<SpriteRenderer>();
     }
 
     public Vector2 Direction()
@@ -39,6 +59,9 @@ public class Player : MonoBehaviour
     void Update()
     {
         movement.Move(Direction(), PlayerAtributts.velocity, true);
+
+        animator.SetBool(Anim_Idle, Direction() == Vector2.zero);
+        render.flipX = Direction().x < 0;
 
         if (virtualCamera.Follow != transform)
         {
