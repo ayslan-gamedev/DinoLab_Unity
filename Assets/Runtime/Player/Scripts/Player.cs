@@ -58,7 +58,20 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movement.Move(Direction(), PlayerAtributts.velocity, true);
+        try 
+        {
+            movement.Move(Direction(), PlayerAtributts.velocity, true);
+        }
+        catch
+        {
+            movement = new()
+            {
+                @object = this.gameObject
+            };
+
+            Debug.Log("New Movement Created");
+            return;
+        }
 
         animator.SetBool(Anim_Idle, Direction() == Vector2.zero);
         render.flipX = Direction().x < 0;
