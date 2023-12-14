@@ -1,0 +1,647 @@
+fileFormatVersion: 2
+guid: dbc863025f9805d4f89a6b4838da61cb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: advise
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129cbed9cefb1d94184c8a9002d801ea
+      internalID: 441805692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: old_ground_16x16_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9526ae3fd440b478eaa8794dd25cc4
+      internalID: -355748372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: old_ground_16x16_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe4d7df40e41554ebf15ce5db88e2b8
+      internalID: -817860547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gound_32x32
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe704f2b551adea42ac123b0f7545407
+      internalID: -806702253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: old_ground
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 112
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f98ec0f9ed573e40bf20a217859896e
+      internalID: -43884478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: old_door_open
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475c739f0867a4742bee1caf79e6e8f8
+      internalID: -2091610375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: old_door_close
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3751a383c10749408d3766f34716a6d
+      internalID: 1116980905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ground_16x16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8dd4d48cab1faf4b893fcb7dba9f789
+      internalID: 1872613378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6385ac44dca944498955b751689992
+      internalID: -752215909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_open
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1caccf80ed98ab5498c127ed8c2f0b4b
+      internalID: -1256046418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_close
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c613d07a1b7542e4c84560c14f4ed85e
+      internalID: -817022891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: side_door_close
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 16
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e91f7365ff68f44d8c6f9041cba547e
+      internalID: -1468334687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: side_door_open
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 16
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b5fe2a2c6862c4fad790e71a476be4
+      internalID: -1356806650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: old_side_door_close
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 16
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6efa184103680a846bde281441d0a4c8
+      internalID: -1906311452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aa
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f6417a74ce9e0439c2418f692d00ff
+      internalID: -1602191477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labsprritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6240bb2634330084fb51be2b08359ed3
+      internalID: 948690686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labsprritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 81
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c8767d06753b041bf6588320ed5c4f
+      internalID: 595324984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tileset portas piso e paredes_10: 561961023
+      Tileset portas piso e paredes_100: 633776549
+      Tileset portas piso e paredes_101: -838774883
+      Tileset portas piso e paredes_102: 332098005
+      Tileset portas piso e paredes_103: 1897835209
+      Tileset portas piso e paredes_104: -36213366
+      Tileset portas piso e paredes_105: -458689855
+      Tileset portas piso e paredes_106: -327072468
+      Tileset portas piso e paredes_107: -1792952308
+      Tileset portas piso e paredes_108: -430065841
+      Tileset portas piso e paredes_109: 194161515
+      Tileset portas piso e paredes_11: 494740940
+      Tileset portas piso e paredes_110: 1001349229
+      Tileset portas piso e paredes_111: -797770815
+      Tileset portas piso e paredes_112: -107465481
+      Tileset portas piso e paredes_113: -109865663
+      Tileset portas piso e paredes_114: -1884560255
+      Tileset portas piso e paredes_115: 723373940
+      Tileset portas piso e paredes_116: -759444981
+      Tileset portas piso e paredes_117: 1951766210
+      Tileset portas piso e paredes_118: -2062164501
+      Tileset portas piso e paredes_122: 1764282706
+      Tileset portas piso e paredes_123: -717263269
+      Tileset portas piso e paredes_124: -1393975413
+      Tileset portas piso e paredes_125: -1849717246
+      Tileset portas piso e paredes_126: -1026500181
+      Tileset portas piso e paredes_127: 756582005
+      Tileset portas piso e paredes_128: -493288584
+      Tileset portas piso e paredes_129: 1387300603
+      Tileset portas piso e paredes_130: 2056855410
+      Tileset portas piso e paredes_131: -2043444270
+      Tileset portas piso e paredes_132: -252903816
+      Tileset portas piso e paredes_133: 284821815
+      Tileset portas piso e paredes_14: 880972897
+      Tileset portas piso e paredes_15: 1728600020
+      Tileset portas piso e paredes_16: 402223154
+      Tileset portas piso e paredes_17: 893831085
+      Tileset portas piso e paredes_18: -1416155548
+      Tileset portas piso e paredes_20: -444532926
+      Tileset portas piso e paredes_21: 346862429
+      Tileset portas piso e paredes_22: -1623972660
+      Tileset portas piso e paredes_23: 378120324
+      Tileset portas piso e paredes_24: -1160977032
+      Tileset portas piso e paredes_25: -446919927
+      Tileset portas piso e paredes_26: 298011910
+      Tileset portas piso e paredes_27: -509609471
+      Tileset portas piso e paredes_28: -1655652572
+      Tileset portas piso e paredes_29: 1608776200
+      Tileset portas piso e paredes_30: -1154547838
+      Tileset portas piso e paredes_31: -703376582
+      Tileset portas piso e paredes_32: 1549864789
+      Tileset portas piso e paredes_33: -107187496
+      Tileset portas piso e paredes_34: 1258896594
+      Tileset portas piso e paredes_35: 1470641976
+      Tileset portas piso e paredes_36: -1331805864
+      Tileset portas piso e paredes_37: 1267522750
+      Tileset portas piso e paredes_38: -1103946201
+      Tileset portas piso e paredes_4: -882786789
+      Tileset portas piso e paredes_40: -829452395
+      Tileset portas piso e paredes_41: 515831352
+      Tileset portas piso e paredes_42: 210388963
+      Tileset portas piso e paredes_43: 1310834720
+      Tileset portas piso e paredes_44: -21675460
+      Tileset portas piso e paredes_45: -1353709466
+      Tileset portas piso e paredes_46: -37516241
+      Tileset portas piso e paredes_47: -922238915
+      Tileset portas piso e paredes_48: 1967635197
+      Tileset portas piso e paredes_49: -696189539
+      Tileset portas piso e paredes_50: 918427904
+      Tileset portas piso e paredes_51: -2070949372
+      Tileset portas piso e paredes_52: -2137016253
+      Tileset portas piso e paredes_53: -1725943214
+      Tileset portas piso e paredes_54: -1038447068
+      Tileset portas piso e paredes_55: -465646802
+      Tileset portas piso e paredes_56: -1776044780
+      Tileset portas piso e paredes_57: 19253786
+      Tileset portas piso e paredes_58: -1440709927
+      Tileset portas piso e paredes_59: 1928452531
+      Tileset portas piso e paredes_6: 742347401
+      Tileset portas piso e paredes_60: 231566185
+      Tileset portas piso e paredes_61: 574568537
+      Tileset portas piso e paredes_62: 1838409240
+      Tileset portas piso e paredes_63: 426592874
+      Tileset portas piso e paredes_64: -271858265
+      Tileset portas piso e paredes_65: 954375484
+      Tileset portas piso e paredes_66: 1990954645
+      Tileset portas piso e paredes_67: 1384144273
+      Tileset portas piso e paredes_68: 1688795743
+      Tileset portas piso e paredes_69: 926360581
+      Tileset portas piso e paredes_7: -12640709
+      Tileset portas piso e paredes_70: 643618967
+      Tileset portas piso e paredes_71: 1222518343
+      Tileset portas piso e paredes_72: -443135702
+      Tileset portas piso e paredes_73: -1390081499
+      Tileset portas piso e paredes_74: -111739356
+      Tileset portas piso e paredes_75: -813889549
+      Tileset portas piso e paredes_76: 1530159768
+      Tileset portas piso e paredes_77: 356644151
+      Tileset portas piso e paredes_78: 338738933
+      Tileset portas piso e paredes_79: -1823296960
+      Tileset portas piso e paredes_8: -835326736
+      Tileset portas piso e paredes_82: 61196393
+      Tileset portas piso e paredes_83: 997431520
+      Tileset portas piso e paredes_84: 1490787169
+      Tileset portas piso e paredes_85: -1184429657
+      Tileset portas piso e paredes_86: 1042573302
+      Tileset portas piso e paredes_87: 445187825
+      Tileset portas piso e paredes_88: 1052274820
+      Tileset portas piso e paredes_89: 1187128637
+      Tileset portas piso e paredes_9: -1637018743
+      Tileset portas piso e paredes_90: 2034467122
+      Tileset portas piso e paredes_91: -480299117
+      Tileset portas piso e paredes_92: -725501373
+      Tileset portas piso e paredes_93: -302207535
+      Tileset portas piso e paredes_94: 244127462
+      Tileset portas piso e paredes_95: 156624127
+      Tileset portas piso e paredes_96: -328054674
+      Tileset portas piso e paredes_97: 662989817
+      Tileset portas piso e paredes_98: 644371424
+      Tileset portas piso e paredes_99: -1181689890
+      aa: -1602191477
+      advise: 441805692
+      door_close: -817022891
+      door_open: -1256046418
+      gound_32x32: -806702253
+      ground_16x16: 1872613378
+      labsprritesheet_0: 948690686
+      labsprritesheet_1: 595324984
+      old_door_close: 1116980905
+      old_door_open: -2091610375
+      old_ground: -43884478
+      old_ground_16x16_1: -817860547
+      old_ground_16x16_2: -355748372
+      old_side_door_close: -1906311452
+      side_door_close: -1468334687
+      side_door_open: -1356806650
+      wall: -752215909
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
