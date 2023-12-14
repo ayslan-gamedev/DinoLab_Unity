@@ -6,7 +6,7 @@ public class Door : MonoBehaviour
     [SerializeField] private Sprite[] sprites = new Sprite[2];
 
     private const string Player_Tag = "Player";
-    private const float distanceToOpenDoor = 0.0015f;
+    [SerializeField] private float distanceToOpenDoor = 0.0015f;
 
     [SerializeField] private Transform teleport;
     

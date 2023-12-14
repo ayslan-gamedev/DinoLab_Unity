@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5548635261963981093
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3235017313403686034, guid: f94af4918ccb58a47b3dd15af8436f0b, type: 3}
+      propertyPath: distanceToOpenDoor
+      value: 0.000015
+      objectReference: {fileID: 0}
+    - target: {fileID: 3235017313403686034, guid: f94af4918ccb58a47b3dd15af8436f0b, type: 3}
+      propertyPath: sprites.Array.data[0]
+      value: 
+      objectReference: {fileID: -1468334687, guid: dbc863025f9805d4f89a6b4838da61cb, type: 3}
+    - target: {fileID: 3235017313403686034, guid: f94af4918ccb58a47b3dd15af8436f0b, type: 3}
+      propertyPath: sprites.Array.data[1]
+      value: 
+      objectReference: {fileID: -1356806650, guid: dbc863025f9805d4f89a6b4838da61cb, type: 3}
+    - target: {fileID: 3610920792467589220, guid: f94af4918ccb58a47b3dd15af8436f0b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3610920792467589220, guid: f94af4918ccb58a47b3dd15af8436f0b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3610920792467589220, guid: f94af4918ccb58a47b3dd15af8436f0b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3610920792467589220, guid: f94af4918ccb58a47b3dd15af8436f0b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3610920792467589220, guid: f94af4918ccb58a47b3dd15af8436f0b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3610920792467589220, guid: f94af4918ccb58a47b3dd15af8436f0b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3610920792467589220, guid: f94af4918ccb58a47b3dd15af8436f0b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3610920792467589220, guid: f94af4918ccb58a47b3dd15af8436f0b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3610920792467589220, guid: f94af4918ccb58a47b3dd15af8436f0b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3610920792467589220, guid: f94af4918ccb58a47b3dd15af8436f0b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4369470071677275876, guid: f94af4918ccb58a47b3dd15af8436f0b, type: 3}
+      propertyPath: m_Name
+      value: DoorSide
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604337804617830950, guid: f94af4918ccb58a47b3dd15af8436f0b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604337804617830950, guid: f94af4918ccb58a47b3dd15af8436f0b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7841150233758490247, guid: f94af4918ccb58a47b3dd15af8436f0b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1906311452, guid: dbc863025f9805d4f89a6b4838da61cb, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f94af4918ccb58a47b3dd15af8436f0b, type: 3}
