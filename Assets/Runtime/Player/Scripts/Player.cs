@@ -8,8 +8,6 @@ public class Player : MonoBehaviour
     private const string Axis_Horizontal = "Horizontal";
     private const string Axis_Vertical = "Vertical";
 
-    private Movement movement;
-
     private Cinemachine.CinemachineVirtualCamera virtualCamera;
 
     [SerializeField] private Transform MouseObject;
@@ -21,6 +19,8 @@ public class Player : MonoBehaviour
     private const string Anim_Idle = "Idle";
     private const string Player_Blendtree = "Player";
 
+    Rigidbody2D rigidiBody;
+
     public byte PlayerSelected { get; private set; }
 
     SpriteRenderer render;
@@ -29,19 +29,16 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        rigidiBody = GetComponent<Rigidbody2D>();
+
         virtualCamera = FindAnyObjectByType<Cinemachine.CinemachineVirtualCamera>();
         screenRect = new Rect(0f, 0f, Screen.width, Screen.height);
 
-        movement = new()
-        {
-            @object = this.gameObject
-        };
-
         GameManager manager = FindAnyObjectByType<GameManager>();
 
-        if(manager != null)
+        if (manager != null)
         {
-            PlayerSelected = manager.PlayerSelected;
+            PlayerSelected = manager.CharacterSelected;
         }
 
         animator = GetComponentInChildren<Animator>();
@@ -58,24 +55,23 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        try 
+        rigidiBody.velocity = Direction() * playerAtributts.velocity;
+        animator.SetBool(Anim_Idle, Direction() == Vector2.zero);
+
+        if (Direction().x != 0)
         {
-            movement.Move(Direction(), PlayerAtributts.velocity, true);
+            render.flipX = Direction().x < 0;
         }
-        catch
+
+        if (MouseObject == null)
         {
-            movement = new()
-            {
-                @object = this.gameObject
-            };
             return;
         }
 
-        animator.SetBool(Anim_Idle, Direction() == Vector2.zero);
-        
-        if(Direction().x != 0)
+        if (virtualCamera == null)
         {
-            render.flipX = Direction().x < 0;
+            virtualCamera = FindAnyObjectByType<Cinemachine.CinemachineVirtualCamera>();
+            return;
         }
 
         if (virtualCamera.Follow != transform)
@@ -86,13 +82,13 @@ public class Player : MonoBehaviour
                 MouseObject.position = Vector2.Lerp(transform.position, relativeMousePosition, lerpTime);
             }
         }
-        
+
         if (Direction() != Vector2.zero && virtualCamera.Follow != transform)
         {
             virtualCamera.Follow = transform;
             MouseObject.transform.position = transform.position;
         }
-        else if(virtualCamera.Follow == transform)
+        else if (virtualCamera.Follow == transform)
         {
             virtualCamera.Follow = MouseObject;
         }
