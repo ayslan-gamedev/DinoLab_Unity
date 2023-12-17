@@ -25,7 +25,6 @@ public class Door : MonoBehaviour
         {
             float distance = Vector2.Distance(collision.transform.position, transform.position);
             distance = Math.Abs(distance);
-            Debug.Log(distance);
 
             if (Input.GetKeyDown(KeyCode.Escape) || distance < render.size.y + distanceToOpenDoor)
             {
