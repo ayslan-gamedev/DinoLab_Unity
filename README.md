@@ -7,4 +7,4 @@ Its Dino to Die is a horror game where you are a scientist who accidentally tele
 
 ## STACK:
 * Unity 2023.3.14f1
-* C#
+* C# .Net Freamework
