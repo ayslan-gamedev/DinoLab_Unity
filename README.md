@@ -1,5 +1,3 @@
-[Its Dino to Die by Ayslan_gamedev](https://ayslan-gamedev.itch.io/itsdinotodie)
-
 # 🚀 It's Dino to Die 
 <a href="https://github.com/Ayslan-gamedev/DinoLab_Unity/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ayslan-gamedev/DinoLab_Unity?color=blue&style=flat-square"></a>
 
