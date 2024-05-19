@@ -3,6 +3,8 @@
 
 Its Dino to Die is a horror game where you are a scientist who accidentally teleports your base to the Jurassic period. Your objective is to repair the base to return to your time, while escaping from hungry dinosaurs loose around the base.
 
+Note: Feels Free to fork and also uses in your own projects. 
+
 ## STACK:
 * Unity 2023.3.14f1
 * C# .Net Freamework
